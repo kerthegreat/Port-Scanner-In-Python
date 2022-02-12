@@ -1,5 +1,4 @@
 # made with <3
-from ast import For
 import concurrent.futures
 import os
 import socket
