@@ -23,6 +23,7 @@ def main():
 
         # Scans specific port
         def sPort():
+            os.system('title Scan Specific Port')
             clearConsole()
             print(Fore.RED + r"""
             ██▓███   ▒█████   ██▀███  ▄▄▄█████▓  ██████  ▄████▄   ▄▄▄       ███▄    █ 
@@ -45,15 +46,16 @@ def main():
 
             def portScan(port):
                 if sock.connect_ex((host, port)):
-                    print(Fore.RED + "Port" + str(port) + " is Closed!")
+                    print(Fore.WHITE + f"Port [{port}]" + Fore.RED + " is Closed!")
                 else:
-                    print(Fore.GREEN + "Port " + str(port) + " is Open!")
+                    print(Fore.WHITE + f"Port [{port}]" + Fore.GREEN + " is Open!")
 
             portScan(port)
             goBack()
 
         # Scans all ports
         def aPort():
+            os.system('title Scan all Ports')
             clearConsole()
             print(Fore.RED + r"""
             ██▓███   ▒█████   ██▀███  ▄▄▄█████▓  ██████  ▄████▄   ▄▄▄       ███▄    █ 
@@ -76,7 +78,7 @@ def main():
                     scanner.connect((ip, port))
                     scanner.close()
                     with printLock:
-                        print(Fore.WHITE + f"[{port}]" + Fore.GREEN + " is Open!")
+                        print(Fore.WHITE + f"Port [{port}]" + Fore.GREEN + " is Open!")
                 except:
                     pass
             
@@ -89,6 +91,7 @@ def main():
 
         # Asks user to choose between two modes
         def question():
+            os.system('title Port Scanner')
             clearConsole()
             print(Fore.RED + r"""
             ██▓███   ▒█████   ██▀███  ▄▄▄█████▓  ██████  ▄████▄   ▄▄▄       ███▄    █ 
