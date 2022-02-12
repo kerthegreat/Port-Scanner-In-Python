@@ -37,8 +37,10 @@ You can also check this [Cool tool i've made!](https://www.youtube.com/watch?v=d
 
 # Screenshots 
 
-![image](https://user-images.githubusercontent.com/73579653/153697189-6489b884-8997-478a-80df-62eb15069309.png)
+![image](https://user-images.githubusercontent.com/73579653/153705059-71417d58-40ff-4c04-a2ed-baa78cca89b9.png)
 
-![image](https://user-images.githubusercontent.com/73579653/153697212-f6c19c06-a260-4c8f-90cf-3b85743cefd7.png)
+![image](https://user-images.githubusercontent.com/73579653/153705070-7690e3f4-1b88-474e-90af-265763f7396c.png)
 
-![image](https://user-images.githubusercontent.com/73579653/153697239-05073ca7-ae68-41a9-af63-0ebc0c4d68f4.png)
+![image](https://user-images.githubusercontent.com/73579653/153705104-908b758a-6fa7-471a-bb07-976b707858e1.png)
+
+<p>exe file being detected as a virus on virustotal :((</p>
