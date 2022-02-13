@@ -1,4 +1,5 @@
 # made with <3
+import platform
 import concurrent.futures
 import os
 import socket
@@ -19,7 +20,7 @@ def main():
                 exit()
             else:
                 goBack()
-
+                
         # Scans specific port
         def sPort():
             os.system('title Scan Specific Port')
@@ -105,7 +106,8 @@ def main():
                                                         ░                             """)
             print("                                                                           1.0")    
             print(Fore.MAGENTA + "\ntype 1 For specific port, 2 For all ports, 3 for exit") 
-            ans = input(Fore.WHITE + "Please enter: ")
+            print(Fore.WHITE + f"┌──({platform.node()})-[~]")
+            ans = input("└─$ ")
             if ans == "1":
                 sPort()
             elif ans == "2":
