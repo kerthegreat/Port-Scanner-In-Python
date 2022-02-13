@@ -36,7 +36,7 @@ def main():
             ░░       ░ ░ ░ ▒    ░░   ░   ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░ 
                         ░ ░     ░                    ░  ░ ░            ░  ░         ░ 
                                                         ░                             """)
-            print("                                                                           1.0")
+            print("                                                                           1.1")
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(5)
 
@@ -68,7 +68,7 @@ def main():
             ░░       ░ ░ ░ ▒    ░░   ░   ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░ 
                         ░ ░     ░                    ░  ░ ░            ░  ░         ░ 
                                                         ░                             """)
-            print("                                                                           1.0")    
+            print("                                                                           1.1")    
             ip = input(Fore.WHITE + "Enter the IP address: ")
 
             def scan(ip, port):
@@ -104,7 +104,7 @@ def main():
             ░░       ░ ░ ░ ▒    ░░   ░   ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░ 
                         ░ ░     ░                    ░  ░ ░            ░  ░         ░ 
                                                         ░                             """)
-            print("                                                                           1.0")    
+            print("                                                                           1.1")    
             print(Fore.MAGENTA + "\ntype 1 For specific port, 2 For all ports, 3 for exit") 
             print(Fore.WHITE + f"┌──({platform.node()})-[~]")
             ans = input("└─$ ")
