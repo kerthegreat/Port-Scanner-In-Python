@@ -24,7 +24,7 @@ make sure you have python3 and pip installed.
 
 <h2>In Windows</h2>
 
-You can download the latest version of the .Exe file of it [Here](https://github.com/kerthegreat/Port-Scanner-In-Python/releases/tag/v1.1).
+You can download the latest version of the .Exe file of it [Here](https://github.com/kerthegreat/Port-Scanner-In-Python/releases/tag/v1.2).
 
 <p></p>
 
