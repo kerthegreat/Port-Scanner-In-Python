@@ -1,4 +1,4 @@
-# made with <3
+# made with <3 by kerbs
 import platform
 import concurrent.futures
 import os
@@ -36,12 +36,13 @@ def main():
             ░░       ░ ░ ░ ▒    ░░   ░   ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░ 
                         ░ ░     ░                    ░  ░ ░            ░  ░         ░ 
                                                         ░                             """)
-            print("                                                                           1.1")
+            print("                                                                           v1.2")
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(5)
 
-            host = input(Fore.WHITE + "Enter Ip: ")
-            port = int(input(Fore.WHITE + "Enter specific port to scan: "))
+            host = input(Fore.YELLOW + "Enter Ip: ")
+            port = int(input(Fore.YELLOW + "Enter specific port to scan: "))
+
 
 
             def portScan(port):
@@ -68,8 +69,9 @@ def main():
             ░░       ░ ░ ░ ▒    ░░   ░   ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░ 
                         ░ ░     ░                    ░  ░ ░            ░  ░         ░ 
                                                         ░                             """)
-            print("                                                                           1.1")    
-            ip = input(Fore.WHITE + "Enter the IP address: ")
+            print("                                                                           v1.2")    
+            ip = input(Fore.YELLOW + "Enter the IP address: ")
+            portRange = int(input(Fore.YELLOW + f"Please Enter the Port Range: "))
 
             def scan(ip, port):
                 scanner = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -83,7 +85,7 @@ def main():
                     pass
             
             with concurrent.futures.ThreadPoolExecutor(max_workers=100) as exec:
-                for port in range(1000):
+                for port in range(portRange):
                     exec.submit(scan, ip, port + 1)
 
             goBack()
@@ -104,7 +106,7 @@ def main():
             ░░       ░ ░ ░ ▒    ░░   ░   ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░ 
                         ░ ░     ░                    ░  ░ ░            ░  ░         ░ 
                                                         ░                             """)
-            print("                                                                           1.1")    
+            print("                                                                           v1.2")    
             print(Fore.MAGENTA + "\ntype 1 For specific port, 2 For all ports, 3 for exit") 
             print(Fore.WHITE + f"┌──({platform.node()})-[~]")
             ans = input("└─$ ")
