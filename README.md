@@ -44,3 +44,4 @@ You can also check this [Cool tool i've made!](https://www.youtube.com/watch?v=d
 ![image](https://user-images.githubusercontent.com/73579653/155644904-0b231c2b-028b-4202-bfd2-4826cadd6fc6.png)
 
 <p>exe file being detected as a virus on virustotal :((</p>
+just use nmap lul :)
